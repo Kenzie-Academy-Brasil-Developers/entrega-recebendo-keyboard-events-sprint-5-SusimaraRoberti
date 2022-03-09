@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#fundo {
+  margin-top: -200px;
+  width: 100%;
+  height: calc(100vh + 200px);
+  background-image: url("./assets/img/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  background-image: url("./assets/img/Mario.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
